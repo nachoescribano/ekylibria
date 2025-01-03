@@ -64,4 +64,9 @@ yarn.lock
 
 # Ensure data directory is tracked
 !data/
-!data/**/* 
+!data/**/*
+
+# Ignorar builds pero mantener la carpeta
+builds/*
+!builds/.gitkeep
+!builds/README.md 
