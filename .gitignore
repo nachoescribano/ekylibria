@@ -68,5 +68,7 @@ yarn.lock
 
 # Ignorar builds pero mantener la carpeta
 builds/*
+temp/*
+build/*
 !builds/.gitkeep
 !builds/README.md 
