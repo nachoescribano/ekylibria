@@ -18,9 +18,6 @@ wp-content/uploads/
 # Log files
 *.log
 
-# htaccess
-.htaccess
-
 # Cache files
 wp-content/cache/
 wp-content/advanced-cache.php
