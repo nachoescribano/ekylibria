@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Procedimiento de Restauración de Backup - Ekylibria</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            line-height: 1.6;
+        }
+        .info-note {
+            background-color: #f0f7ff;
+            border-left: 4px solid #0066cc;
+            padding: 10px;
+            margin: 10px 0;
+        }
+    </style>
+</head>
+<body>
+    <h1>Procedimiento de Restauración de Backup - Ekylibria</h1>
+
+    <h2>📥 Obtención del Archivo</h2>
+    <ol>
+        <li style="display: flex; align-items: center; justify-content: center;">
+           Iniciar sesión en <a href="https://panel.acens.net/login/">Panel de Acens</a> con credenciales de administrador
+           <img width="300px" height="auto" src="img/login.png" alt="Pantalla de inicio de sesión de Acens" class="step-image">
+        </li>
+        <li>
+            <img src="img/paso2-menu.png" alt="Navegación al menú de hosting" class="step-image">
+            Navegar al menú lateral:
+            <ul>
+                <li>Seleccionar opción "Hosting"</li>
+                <li>En "Alojamiento Web" → "Gestionar"</li>
+            </ul>
+        </li>
+        <li>
+            <img src="img/paso3-backup.png" alt="Ubicación del botón de backup" class="step-image">
+            En la nueva ventana:
+            <ul>
+                <li>Ubicar botón "Backup y Restauración" (esquina superior derecha)</li>
+            </ul>
+        </li>
+        <li>
+            <img src="img/paso4-descarga.png" alt="Descarga del backup más reciente" class="step-image">
+            Descargar el backup más reciente
+        </li>
+    </ol>
+    
+    <div class="info-note">
+        <p>ℹ️ Los backups se generan automáticamente a las 22:16 hrs diariamente</p>
+    </div>
+
+    <h2>🔄 Proceso de Restauración</h2>
+    <ol>
+        <li>
+            <img src="img/paso5-basedatos.png" alt="Navegación a base de datos" class="step-image">
+            En la misma ventana:
+            <ul>
+                <li>Menú lateral → "Base de datos"</li>
+            </ul>
+        </li>
+        <li>
+            <img src="img/paso6-importar.png" alt="Selección de importar volcado" class="step-image">
+            Seleccionar "Importar Volcado"
+        </li>
+        <li>
+            <img src="img/paso7-cargar.png" alt="Carga del archivo de backup" class="step-image">
+            Cargar archivo de backup descargado
+        </li>
+        <li>
+            <img src="img/paso8-recrear.png" alt="Recreación de la base de datos" class="step-image">
+            Ejecutar "Recrear base de datos"
+        </li>
+        <li>
+            <img src="img/paso9-confirmar.png" alt="Confirmación de la operación" class="step-image">
+            Confirmar <strong>operación</strong>
+        </li>
+    </ol>
+
+    <style>
+        .step-image {
+            max-width: 100%;
+            height: auto;
+            margin: 10px 0;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+    </style>
+</body>
+</html>
+
